@@ -1,0 +1,265 @@
+
+html, body { height: auto !important}
+.resizedTextbox {width: 50%;}
+
+
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+
+  .button-height {
+    height: 50% !important; 
+  }
+
+  
+  .btn-coloumn {
+    width: 50% !important; 
+  }
+  .btn-coloumn-revoke {
+    width: 10% !important; 
+  }
+  
+  .text-width{
+    width: 40% !important;
+  }
+
+  /* .drop-menu-width{
+    max-width: 20% !important;
+  } */
+
+  /* .drop-menu-title-width{
+    width: 16% !important;
+  } */
+
+    .drop-menu-title-width-2{
+    width: 16% !important;
+  }
+
+  
+  .text-width-reserved{
+    width: 64% !important;
+  }
+
+  .less-qty{  
+    background-color: #dc3545 !important;
+    color: white !important;
+  
+  }
+
+  .less-qty-new{  
+    background-color: #efc1f6 !important;
+    color: white !important;
+  
+  }
+
+  .blur{
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(5px);
+      width: 100px;
+        height: 100px;
+        background-color: #ccc;
+  }
+  .row-background-issue{
+    background-color: #ff5850;
+  }
+  .balance-equal{
+    background-color: #198754 !important;
+    color: white !important;
+  }
+  .balance-low{
+    background-color: #dc3545 !important;
+    color: white !important;
+  }
+
+  .short-text-box{
+    width: 10%;
+  }
+
+  .textbox-height{
+    height: 2%;
+  }
+  .white-text{
+    color: white;
+  }
+
+  .balance-access{
+    background-color: #0d6efd !important;
+    color: white !important;
+  }
+  .white-text-issue{
+    color: white;
+  }
+
+  .red-text{
+    color: red;
+  }
+
+  .delivery-note-fs{
+    font-size: small;
+  }
+.icon-size-lg{
+  font-size: 65px;
+ 
+}
+.project-card-complete{
+  color: white;
+  background-color: blueviolet;
+  font-size: large;
+  font-weight: 600;
+}
+
+.project-card-delayed{
+  color: white;
+  background-color: #da932c;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.project-card-halted{
+  color: white;
+  background-color: #D65B4A;
+  font-size: large;
+  font-weight: 600;
+}
+
+.project-card-running{
+  color: white;
+  background-color: #66B92E;
+  font-size: large;
+  font-weight: 600;
+}
+
+.project-card-manager{
+  color: white;
+  background-color: #2b84e2;
+  font-size: large;
+  font-weight: 600;
+}
+.project-card-name{
+  color: white;
+  background-color: #3b9d8f;;
+  font-size: large;
+  font-weight: 600;
+}
+.project-card-payment{
+  color: white;
+  background-color: #7097E0;;
+  font-size: large;
+  font-weight: 600;
+}
+
+.project-card-new{
+  color: white;
+  background-color: #2f628b;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.dashboard-background-color{
+  background-color: #fcfdff;
+}
+.dashboard-anchor-tag{
+  color: white;
+  text-decoration: none;
+}
+.type-width{
+  width: inherit;
+}
+A:hover { COLOR: white; TEXT-DECORATION: none; font-weight: 600 }
+  @media print{
+    .d-print-none{
+        display:none !important;
+    }
+}
+
+@media print and (max-width: 600px)
+{
+  .d-print-none{
+    display:none !important;
+}
+}
+.dntable-border{
+  border: 1px;
+}
+.hidetextbox{
+  display: none;
+}
+
+.hello{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  }
+
+
+  .selectwidth{
+    width: 550px;
+  }
+
+  .selectwidth-per{
+    width: 15% !important;
+  }
+
+  .text-width-per{
+    width: 2% !important;
+  }
+
+  .testing-row{
+    background-color: #3c3151;
+    color: white;
+   }
+   
+  .hello-text{ 
+ font-family: "arial";
+ font-size: 3em;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+
+}
